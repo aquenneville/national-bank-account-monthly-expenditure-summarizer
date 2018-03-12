@@ -10,12 +10,8 @@ Features
 - Sum/group lines with similar description 
 - Use the Csv exported files from <a href="https://commercial.bnc.ca/auth/Login?GAURI=https%3A%2F%2Fcommercial.bnc.ca%2FSBIComWeb%2FLogonDispatch%3FfromPortail%3Dtrue%26lang%3Den&URI=https%3A%2F%2Fcommercial.bnc.ca%2FSBIComWeb%2FLogonDispatch%3FfromPortail%3Dtrue%26lang%3Den">National bank internet banking</a>.
   
-  National Bank Account statement monthly summarizer:
-Accounting script, 
-Groups together the CSV lines with the same description and <br>
-calculates the TPS and TVQ<br><br>
 
 Usage
 ---------------------------------------------------------
-national-bank-account-monthly-expenditure-summarizer -y 2014 -m 3 -f 2014033r3747437928.csv
+national-bank-account-monthly-expenditure-summarizer.sh -y 2014 -m 3 -f 2014033r3747437928.csv
 
